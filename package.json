@@ -1,0 +1,24 @@
+{
+  "name": "vue3-plane-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@vue/runtime-core": "^3.0.11",
+    "pixi.js": "^5.3.2",
+    "webpack-dev-server": "^3.11.2",
+    "yarn": "^1.22.10"
+  }
+}
